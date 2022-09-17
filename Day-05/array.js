@@ -270,3 +270,15 @@ console.log(webTechs)
 // After sorting, we can reverse it
 webTechs.reverse()
 console.log(webTechs)
+
+// Array of Arrays
+const arrayOfArray = [[1, 2, 3], [1, 2, 3]]
+console.log(arrayOfArray[0])
+
+const frontEnd = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+const backEnd = ['Node', 'Express', 'MongoDB']
+const fullStack = [frontEnd, backEnd]
+console.log(fullStack)
+console.log(fullStack.length)
+console.log(fullStack[0])
+console.log(fullStack[1])

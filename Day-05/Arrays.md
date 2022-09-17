@@ -106,3 +106,6 @@ console.log(arr)
 - **unshift**: Adding array element in the beggining of the array
 - **reverse**: Reverse the order of an array.
 - **sort**: Arrange array elements in ascending order. Sort takes a callback function.
+
+### Array of Arrays
+Array can store different data types including an array itself.
