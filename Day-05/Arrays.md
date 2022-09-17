@@ -101,4 +101,5 @@ console.log(arr)
 - **Slice** To cut out a multiple items in range. It takes two parameters: starting and ending position. It doesn't include the ending position.
 - **splice**: It taks three parameters: Starting position, number of times to be removed, and the number of items to be added.
 - **Push**: Adding item in the end of an array using the push method
+- **pop**: Removing item from the end
 

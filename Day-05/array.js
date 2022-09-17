@@ -250,4 +250,6 @@ console.log(fruits)
 fruits.push('apple');
 console.log(fruits)
 
-// 
+// Removing the end element using pop
+numbers.pop()
+console.log(numbers)
