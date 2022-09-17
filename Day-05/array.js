@@ -128,3 +128,96 @@ console.log(countries)
 countries[0] = 'Afghanistan'
 countries[-1] = 'Korea'
 console.log(countries)
+
+// ==> Methods to manipulate Array
+// => Array Constructor
+const eightEmptyValues = Array(8) // it creates eight empty values
+console.log(eightEmptyValues)
+
+// Creating static values with fill
+/* It creates eight element values filled with 'X' */
+const eightXValues = Array(8).fill('X')
+console.log(eightXValues)
+
+/* It creates eight element values filled with '0' */
+const eight0Values = Array(8).fill(0)
+console.log(eight0Values)
+
+/* It creates four element values filled with '4' */
+const four4Values = Array(4).fill(4)
+console.log(four4Values);
+
+// Concatinating array using concat
+const firstList = [1, 2, 3]
+const secondList = [4, 5, 6]
+const thirdList = firstList.concat(secondList)
+console.log(thirdList)
+
+console.log(fruits)
+console.log(vegetables)
+const fruitsAndVegetables = fruits.concat(vegetables)
+console.log(fruitsAndVegetables)
+
+// Getting index an element in arr array
+console.log(numbers)
+console.log(numbers.indexOf(9.81))
+console.log(numbers.indexOf(98.6))
+console.log(numbers.indexOf(10))
+console.log(fruits.indexOf('mango'))
+
+// check if a banana exits in the array
+console.log(fruits)
+let index = fruits.indexOf('banana')
+
+if(index === -1) {
+  console.log('This fruit does not exist in the array')
+} else {
+  console.log('This fruit does exists in the array')
+}
+
+// We can also use ternary here
+index === -1 ? console.log('This fruit does not exist in the array') : console.log('This fruit exist in the array')
+
+// Check if Avocado exist in the array
+let indexOfAvocado = fruits.indexOf('avocado');
+if(indexOfAvocado === -1) {
+  console.log('This fruit does not exist in the array')
+} else {
+  console.log('This fruit exist')
+}
+
+// Getting last index of an element in array
+const lastIndexValues = [1, 2, 3, 4, 5, 3, 1, 2]
+console.log(lastIndexValues.lastIndexOf(2))
+console.log(lastIndexValues.lastIndexOf(0))
+console.log(lastIndexValues.lastIndexOf(4))
+console.log(lastIndexValues.lastIndexOf(6))
+
+// Includes Method
+console.log(webTechs)
+console.log(webTechs.includes('Node'))
+console.log(webTechs.includes('C'))
+
+// Checking Array
+console.log(numbers)
+console.log(Array.isArray(numbers))
+
+const numValue = 100
+console.log(Array.isArray(numValue))
+
+// Converting array to string
+numToString = numbers.toString()
+console.log(numToString)
+// console.log(numToString.join(''))
+
+// Joining Array Elements
+console.log(numbers.join())
+
+const names = ['Joshua', 'Deborah', 'Stella'];
+console.log(names.join())
+console.log(names.join(''))
+console.log(names.join(' '))
+console.log(names.join(', '))
+console.log(names.join(' # '))
+
+console.log(webTechs.join(' # '))
