@@ -221,3 +221,9 @@ console.log(names.join(', '))
 console.log(names.join(' # '))
 
 console.log(webTechs.join(' # '))
+
+// ## Slice array elements
+console.log(numbers)
+console.log(numbers.slice(0)) // -> It copies all item
+console.log(numbers.slice(0, numbers.length)) // -> It copies all item
+console.log(numbers.slice(1,4))

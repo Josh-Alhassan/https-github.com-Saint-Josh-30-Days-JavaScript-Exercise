@@ -98,4 +98,4 @@ console.log(arr)
 - **Array.isArray**: To check if the data type is an array.
 - **toString**: converts array to string
 - **join**: It is used to join the elements of the array. The argument we passed in the join() method will be joined in he array and return as a string. By default, the join() joins with a comma, but we can pass different string parameter which can be joined between the items.
-
+- **Slice** To cut out a multiple items in range. It takes two parameters: starting and ending position. It doesn't include the ending position.
