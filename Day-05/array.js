@@ -257,3 +257,8 @@ console.log(numbers)
 // Add an element from the beginning
 numbers.unshift(0) // -> add one item from the beginning
 console.log(numbers)
+
+// Reversing array order
+numbers.reverse()
+console.log(numbers)
+
