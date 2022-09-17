@@ -114,3 +114,17 @@ console.log(countries[0])   //  -> Albania
 console.log(countries[10])  //  -> Kenya
 
 console.log(returnLastItem(countries))
+
+// Modifying Array Element
+// const numbers = [1, 2, 3, 4, 5]
+console.log(numbers)
+numbers[0] = 10
+numbers[1] = 20
+
+console.log(numbers)
+
+// Countries
+console.log(countries)
+countries[0] = 'Afghanistan'
+countries[-1] = 'Korea'
+console.log(countries)

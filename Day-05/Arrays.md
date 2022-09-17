@@ -68,3 +68,12 @@ console.log(firstFruit) // banana
 let lastIndex = fruits.length - 1;
 console.log(fruits[lastIndex]) //
 ```
+
+## Modifying Array Element
+An Array is mutable(modifiable). Once an array is created. We can modify the contents of the array elements.
+
+```
+const numbers = [1,2,3,4,5]
+numbers[0] = 10       // changing 1 at index 0 to 10
+numbers[1] = 20      // changing  2 at index 1 to 20
+```
