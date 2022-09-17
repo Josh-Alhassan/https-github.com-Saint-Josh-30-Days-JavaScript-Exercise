@@ -247,9 +247,13 @@ console.log(fruits)
 fruits.push('lime')
 console.log(fruits)
 
-fruits.push('apple');
+fruits.push('apple')
 console.log(fruits)
 
 // Removing the end element using pop
 numbers.pop()
+console.log(numbers)
+
+// Add an element from the beginning
+numbers.unshift(0) // -> add one item from the beginning
 console.log(numbers)
