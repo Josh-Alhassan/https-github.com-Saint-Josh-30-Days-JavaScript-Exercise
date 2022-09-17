@@ -237,3 +237,17 @@ console.log(numbers) // -> remove the first item
 
 numbers.slice(3, 3, 7, 8, 9)
 console.log(numbers)  // -> from index 3, remove 3 items and replace with 7, 8, and 9
+
+// Adding item to an array using 'push'
+const addItem = ['item1', 'item2', 'item3'];
+addItem.push('new item')
+console.log(addItem)
+
+console.log(fruits)
+fruits.push('lime')
+console.log(fruits)
+
+fruits.push('apple');
+console.log(fruits)
+
+// 
