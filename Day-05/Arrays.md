@@ -104,4 +104,5 @@ console.log(arr)
 - **pop**: Removing item from the end
 - **shift**: Removing one array element in the beginning of the array
 - **unshift**: Adding array element in the beggining of the array
-- **reverse**: Reverse the order of an array
+- **reverse**: Reverse the order of an array.
+- **sort**: Arrange array elements in ascending order. Sort takes a callback function.

@@ -262,3 +262,11 @@ console.log(numbers)
 numbers.reverse()
 console.log(numbers)
 
+// Sorting elements in array
+console.log(webTechs)
+webTechs.sort()
+console.log(webTechs)
+
+// After sorting, we can reverse it
+webTechs.reverse()
+console.log(webTechs)
