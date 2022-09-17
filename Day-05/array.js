@@ -227,3 +227,13 @@ console.log(numbers)
 console.log(numbers.slice(0)) // -> It copies all item
 console.log(numbers.slice(0, numbers.length)) // -> It copies all item
 console.log(numbers.slice(1,4))
+
+// ## Splice method in array
+numbers.splice()
+console.log(numbers) // -> remove all items
+
+numbers.splice(0,1)
+console.log(numbers) // -> remove the first item
+
+numbers.slice(3, 3, 7, 8, 9)
+console.log(numbers)  // -> from index 3, remove 3 items and replace with 7, 8, and 9
