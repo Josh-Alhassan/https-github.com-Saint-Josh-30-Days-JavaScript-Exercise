@@ -24,7 +24,7 @@ const animalProducts = ['milk', 'meat', 'butter', 'yoghurt']
 const webTechs = ['HTML', 'CSS', 'JS', 'React', 'Redux', 'Node', 'MongDB']
 
 // array of strings, countries
-const countries = ['Finland', 'Denmark', 'Sweden', 'Norway', 'Iceland']
+const countries = ['Albania', 'Bolvinia','Canada', 'Finland', 'Denmark', 'Ethopia', 'Sweden', 'Norway', 'Iceland', 'Germany', 'Hungary', 'Ireland', 'Japan', 'Ireland', 'Japan', 'Kenya']
 
 // Print array and its length
 console.log('Numbers: ', numbers)
@@ -58,3 +58,59 @@ console.log(companies)
 let txt = 'I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.'
 const words = txt.split(' ')
 console.log(words)
+
+// Accessing Array items using index
+let firstFruit = fruits[0]
+console.log(firstFruit)
+
+let secondFruit = fruits[1]
+console.log(secondFruit)
+
+let lastFruit = fruits[3]
+console.log(lastFruit)
+
+// Extra bonus
+function returnLastItem(index) {
+  let lastItem = index.length - 1
+  return index[lastItem]
+}
+
+// Last index can be calaculated as follows
+let lastIndex = fruits.length - 1
+lastFruit = fruits[lastIndex]
+console.log(lastFruit)
+console.log(returnLastItem(fruits))
+
+// Number array
+console.log(numbers)
+console.log(numbers.length) // => To know the size of the array.
+console.log(numbers[0])
+console.log(numbers[5])
+
+let lastIndexNum = numbers.length - 1
+console.log(numbers[lastIndexNum])
+
+console.log(returnLastItem(numbers))
+
+// WebTechs - List of web technologies
+console.log(webTechs) // all the array items
+
+// To know the size of the array
+console.log(webTechs.length);
+
+// Return certain item that match the index
+console.log(webTechs[0])
+console.log(webTechs[6])
+
+lastIndex = webTechs.length - 1
+console.log(webTechs[lastIndex])
+// OR >>>>>>
+returnLastItem(webTechs)
+
+
+// Country Array items
+console.log(countries)      // -> all countries in array
+console.log(countries[0])   //  -> Albania
+console.log(countries[10])  //  -> Kenya
+
+console.log(returnLastItem(countries))

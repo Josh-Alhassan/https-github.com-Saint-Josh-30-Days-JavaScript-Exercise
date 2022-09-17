@@ -55,3 +55,16 @@ console.log(arr)
 let js = 'JavaScript'
 const charsInJavaScript = js.split('')
 ```
+
+## Accessing Array Items using index
+We access each element in an array using their index. An array index starts from 0.
+
+```
+const fruits = ['banana', 'orange', 'mango', 'lemon']
+let firstFruit = fruits[0] // We are accessing the first item of it's index
+
+console.log(firstFruit) // banana
+
+let lastIndex = fruits.length - 1;
+console.log(fruits[lastIndex]) //
+```
