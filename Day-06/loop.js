@@ -42,3 +42,14 @@ for(let i = 0; i < numbers.length; i++) {
 }
 console.log('Total number of element in array: ' +sum)
 
+// Creating a new array based on the existing one
+console.log(' ')
+console.log('Creating a new Array based on the existing one')
+const newNumbers = [1,2,3,4,5];
+const newArrNew = []
+
+for(let i = 0; i < newNumbers.length; i++) {
+  newArrNew.push(newNumbers[i] **2)
+}
+
+console.log(newArrNew)
