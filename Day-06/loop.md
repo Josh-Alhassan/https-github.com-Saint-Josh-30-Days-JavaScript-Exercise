@@ -17,3 +17,6 @@ for (const element of arr) {
   // code goes here
 }
 ```
+
+### break
+Break keyword is used to interrupt a loop

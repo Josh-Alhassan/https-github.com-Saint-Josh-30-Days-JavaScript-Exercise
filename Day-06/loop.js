@@ -110,3 +110,13 @@ for(country of countries) {
   newCountryArr.push(country.toUpperCase())
 }
 console.log('NEW ARRAY: ', newCountryArr)
+
+// Break keyword
+spaceInConsole()
+for (let i = 0; i <= 30; i++) {
+  if (i == 26) {
+    console.log('YEHHH!!! It is Joshua\'s Birthday ')
+    break
+  }
+  console.log(i)
+}
