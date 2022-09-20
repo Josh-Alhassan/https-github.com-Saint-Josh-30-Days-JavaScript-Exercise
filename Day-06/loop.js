@@ -113,10 +113,20 @@ console.log('NEW ARRAY: ', newCountryArr)
 
 // Break keyword
 spaceInConsole()
-for (let i = 0; i <= 30; i++) {
+for (let i = 25; i <= 30; i++) {
   if (i == 26) {
-    console.log('YEHHH!!! It is Joshua\'s Birthday ')
+    console.log(i, 'YEHHH!!! It is Joshua\'s Birthday ')
     break
+  }
+  console.log(i)
+}
+
+// Continue keyword
+spaceInConsole()
+for (let i = 25; i <= 30; i++) {
+  if (i == 26) {
+    console.log(i, 'YEHHH!!! It is Joshua\'s Birthday ')
+    continue
   }
   console.log(i)
 }
