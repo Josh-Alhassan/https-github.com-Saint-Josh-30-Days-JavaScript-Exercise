@@ -1,5 +1,9 @@
-// for Loop
+// Space in the console function
+function spaceInConsole() {
+  console.log(' ')
+}
 
+// for Loop
 // Incrementing
 for (let i = 0; i <=5; i++) {
   console.log('increment ' + i)
@@ -54,7 +58,6 @@ for(let i = 0; i < newNumbers.length; i++) {
 
 console.log(newArrNew)
 
-
 // ===> WHILE LOOP <====
 console.log(' ')
 console.log('===> WHILE LOOP <===')
@@ -64,4 +67,46 @@ while(i <= 9) {
   console.log(i)
   i++
 }
-// console.log(i)
+
+// For of Loop
+console.log(' ')
+console.log('===> for of loop <===')
+
+const forOfNumbers = [1,2,3,4,5];
+for (const num of forOfNumbers) {
+  console.log('Value from for-of-loop: ', num, (num * num))
+}
+
+// Adding all numbers of the array
+console.log(' ')
+console.log('Adding all numbers of the Arr')
+
+let forOfSum = 0;
+for (num of forOfNumbers) {
+  forOfSum = forOfSum + num
+}
+console.log('Sum of Number Array is: ',forOfSum)
+
+console.log(' ')
+console.log('Looping through web tech stacks')
+const webTechs = ['HTML', 'CSS', 'JavaSript', 'React', 'Redux', 'Node']
+
+for(stack of webTechs) {
+  console.log(stack.toUpperCase())
+}
+
+spaceInConsole()
+console.log('Getting only the first letter of each element')
+for(tech of webTechs) {
+  console.log(tech[0])
+}
+
+spaceInConsole()
+console.log('Inserting Elements into new Array')
+console.log('OLD ARRAY: ', countries)
+
+let newCountryArr = []
+for(country of countries) {
+  newCountryArr.push(country.toUpperCase())
+}
+console.log('NEW ARRAY: ', newCountryArr)
