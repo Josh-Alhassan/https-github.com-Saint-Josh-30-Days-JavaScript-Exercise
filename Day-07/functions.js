@@ -1,3 +1,18 @@
+// ====> UTILITY FUNCTIONS <====
+
+// Space in the console function
+function spaceInConsole() {
+  console.log(' ')
+}
+
+// Title in console function
+function titleInConsole(title) {
+  let response = title;
+  console.log(response)
+}
+
+// ====> END OF UTILITY FUNCTIONS <====
+
 // function without parameter,  a function which make a number square
 function square() {
   let num = 2
@@ -49,3 +64,7 @@ function sumTwoNumbers() {
 }
 // invoking / calling a function
 console.log(sumTwoNumbers())
+
+// ====> Function with a parameter <====
+spaceInConsole()
+titleInConsole('Function with a Parameter')

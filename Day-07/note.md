@@ -14,7 +14,7 @@ A *function* can be declared in couple of ways:
 * Anonymous function
 * Arrow function
 
-### Function Declaration
+## Function Declaration
 **Syntax**
 ```
 // declaring a function without a parameter
@@ -23,4 +23,18 @@ function functionName() {
 }
 
 functionName() // calling or invoking a function
+```
+### Functions returning value
+If a function does not return values, the value of the function will be undefined.
+
+### Functions with Parameters
+In a function, we can pass different data types (number, string, boolean, object, function) as parameter.
+
+**Syntax**
+```
+// function with one parameter
+function functionName(param1) {
+  // code goes here
+}
+functionName(param1) // during calling o invoking a function, an arguement is needed.
 ```
