@@ -162,3 +162,13 @@ const anonymousFunc = function() {
   console.log('I am an anonymous function and my value is stored in anonymousFunc')
 }
 anonymousFunc()
+
+// Function Expression
+spaceInConsole()
+titleInConsole('Function Expression')
+
+const anonymouSquare = function(n) {
+  return n * n;
+}
+
+console.log(anonymouSquare(2))
