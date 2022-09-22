@@ -67,3 +67,6 @@ There's a significant difference between how we take unlimited number of paramet
 *arrow function*
 * Arrow function does not have the *function scoped arguments object*. To implement a function which takes unlimited number of arguments in an arrow function we use spread operator followed by any parameter name.
 *note:* Anything we pass as arguement in the function can be accessed as *array* in the arrow function.
+
+## Anonymous Function
+Anonymous functions are functions without name

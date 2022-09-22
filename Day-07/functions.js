@@ -153,3 +153,12 @@ const sumAllNumsArrowFunc = (...args) => {
 console.log(sumAllNumsArrowFunc(1,2,3,4,5))
 console.log(sumAllNumsArrowFunc(10, 20, 13, 40, 10))
 console.log(sumAllNumsArrowFunc(15, 20, 30, 25, 10, 33, 40))
+
+// Anonymous Function
+spaceInConsole()
+titleInConsole('Anonymous Function')
+
+const anonymousFunc = function() {
+  console.log('I am an anonymous function and my value is stored in anonymousFunc')
+}
+anonymousFunc()
