@@ -38,3 +38,11 @@ function functionName(param1) {
 }
 functionName(param1) // during calling o invoking a function, an arguement is needed.
 ```
+
+```
+// function with two parameters
+function functionName(param1, param2) {
+  // code goes here
+}
+functionName(param1, param2) 
+```

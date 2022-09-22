@@ -76,3 +76,17 @@ function areaOfCircle(radius) {
 }
 
 console.log(areaOfCircle(10))
+
+// Function with two parameters
+titleInConsole('Function with 2 parameters')
+function summationOfTwoNumbers(num1, num2) {
+  let summation = num1 + num2;
+  return summation
+}
+console.log(summationOfTwoNumbers(10, 33))
+
+// function that accepts 2 inputs and display fullName
+function showFullName(firstName, lastName) {
+  return `${firstName} ${lastName}`
+}
+console.log(showFullName('Joshua', 'Alhassan'))
