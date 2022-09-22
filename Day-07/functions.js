@@ -90,3 +90,17 @@ function showFullName(firstName, lastName) {
   return `${firstName} ${lastName}`
 }
 console.log(showFullName('Joshua', 'Alhassan'))
+
+spaceInConsole()
+titleInConsole('Function with many parameters')
+// function that takes array as a parameter and sum up the numbers in the array
+function sumArrayValues(arr) {
+  let sum = 0;
+  for(let i = 0; i < arr.length; i++) {
+    sum = sum + arr[i];
+  }
+  return sum
+}
+
+const numbers = [1,2,3,4,5];
+console.log(sumArrayValues(numbers))

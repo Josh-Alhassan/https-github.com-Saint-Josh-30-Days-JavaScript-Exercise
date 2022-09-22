@@ -39,10 +39,19 @@ function functionName(param1) {
 functionName(param1) // during calling o invoking a function, an arguement is needed.
 ```
 
+**Function with 2 parameters**
 ```
 // function with two parameters
 function functionName(param1, param2) {
   // code goes here
 }
 functionName(param1, param2) 
+```
+
+**Function with many parameter**
+```
+function functionName(param1, param2, param3, ...) {
+  // code goes here
+}
+functionName(param1, param2, param3, ...)
 ```
