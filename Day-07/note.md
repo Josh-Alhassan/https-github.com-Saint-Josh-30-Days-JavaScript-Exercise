@@ -55,3 +55,10 @@ function functionName(param1, param2, param3, ...) {
 }
 functionName(param1, param2, param3, ...)
 ```
+
+### Function with unlimited number of parameters
+sometimes, we do not know how many arguments the user is going to pass. Therefore, we should know how to write a function whcih take unlimited number of arguements.
+
+There's a significant difference between how we take unlimited number of parameters in *function declaration* and *arrow function* 
+
+* A function declaration provides a function scoped arguments array like object. Anything we pass as argument in the function can be asses from arguments object inside the functions.

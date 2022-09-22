@@ -104,3 +104,29 @@ function sumArrayValues(arr) {
 
 const numbers = [1,2,3,4,5];
 console.log(sumArrayValues(numbers))
+
+// Unlimited number of parameters in regular function
+spaceInConsole()
+titleInConsole('Unlimited number of parameters in regular function')
+function sumAllNumsTest() {
+  console.log(arguments)
+}
+sumAllNumsTest(1, 2, 3, 4)
+
+// function declaration
+function summAllNums() {
+  let sum = 0;
+  // loop through arguements
+  for(let i = 0; i < arguments.length; i++) {
+    sum = sum + arguments[i];
+  }
+  return sum
+}
+
+console.log(summAllNums(1, 2, 3, 4))
+console.log(summAllNums(10, 20, 13, 40, 10))
+console.log(summAllNums(15, 20, 30, 25, 10, 33, 40))
+
+// unlimited number of parameters in arrow functions
+spaceInConsole()
+titleInConsole('Unlimited number of parameters in arrow function')
