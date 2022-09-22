@@ -73,3 +73,6 @@ Anonymous functions are functions without name
 
 ## Expression Function
 Expression functions are anonymous functions. After we create a function without a name and we assign it to a variable. To return a value from the function we should call the variable.
+
+## Self invoking Functions
+Self invoking functions are anonymous functions which do not need to be called to return a value.

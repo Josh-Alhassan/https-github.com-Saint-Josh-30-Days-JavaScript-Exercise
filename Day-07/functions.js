@@ -172,3 +172,13 @@ const anonymouSquare = function(n) {
 }
 
 console.log(anonymouSquare(2))
+
+// Self invoking function
+spaceInConsole()
+titleInConsole('Self Invoking Functions')
+
+let squaredNum = (function(n) {
+  return n * n
+})(10)
+
+console.log(squaredNum)
