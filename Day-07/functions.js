@@ -67,4 +67,12 @@ console.log(sumTwoNumbers())
 
 // ====> Function with a parameter <====
 spaceInConsole()
-titleInConsole('Function with a Parameter')
+titleInConsole('===> Function with a Parameter <===')
+
+// function that returns area of a circle
+function areaOfCircle(radius) {
+  let area = Math.PI * radius * radius;
+  return area;
+}
+
+console.log(areaOfCircle(10))
