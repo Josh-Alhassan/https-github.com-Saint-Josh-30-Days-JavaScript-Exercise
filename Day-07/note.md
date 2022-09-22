@@ -61,4 +61,9 @@ sometimes, we do not know how many arguments the user is going to pass. Therefor
 
 There's a significant difference between how we take unlimited number of parameters in *function declaration* and *arrow function* 
 
+*function declaration*
 * A function declaration provides a function scoped arguments array like object. Anything we pass as argument in the function can be asses from arguments object inside the functions.
+
+*arrow function*
+* Arrow function does not have the *function scoped arguments object*. To implement a function which takes unlimited number of arguments in an arrow function we use spread operator followed by any parameter name.
+*note:* Anything we pass as arguement in the function can be accessed as *array* in the arrow function.

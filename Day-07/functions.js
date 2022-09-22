@@ -130,3 +130,26 @@ console.log(summAllNums(15, 20, 30, 25, 10, 33, 40))
 // unlimited number of parameters in arrow functions
 spaceInConsole()
 titleInConsole('Unlimited number of parameters in arrow function')
+// let us access the arguments object
+const sumAllNumsArrowFuncTest = (...args) => {
+  /*
+  console.log(arguments), arguments object not found in arrow function, instead we use a parameter followed by spread operator
+  */
+  console.log(args)
+}
+
+sumAllNumsArrowFuncTest(1, 2, 3, 4 ,5)
+
+// arrow function
+const sumAllNumsArrowFunc = (...args) => {
+  let sum = 0;
+  // for-of-loop
+  for(const element of args) {
+    sum += element
+  }
+  return sum
+}
+
+console.log(sumAllNumsArrowFunc(1,2,3,4,5))
+console.log(sumAllNumsArrowFunc(10, 20, 13, 40, 10))
+console.log(sumAllNumsArrowFunc(15, 20, 30, 25, 10, 33, 40))
