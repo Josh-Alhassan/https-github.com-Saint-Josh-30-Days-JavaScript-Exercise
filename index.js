@@ -21,7 +21,10 @@ import './style.css';
 // import './Day-06/loop.js'
 
 // Day 07 Imports
-import './Day-07/functions.js'
+// import './Day-07/functions.js'
+
+// Day 08 imports
+import './Day-08/objects.js'
 
 // Write Javascript code!
 const appDiv = document.getElementById('app');
