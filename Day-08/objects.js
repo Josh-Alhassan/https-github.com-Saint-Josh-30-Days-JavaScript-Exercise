@@ -107,3 +107,26 @@ titleInConsole('=== OBJECTS ===')
 // Creating empty Object
 const person = {}
 console.log(person)
+
+// Creating an object with values
+const rectangle = {
+  length: 20,
+  width: 20
+}
+console.log(rectangle)
+
+const personObject = {
+  fistName: 'Joshua',
+  lastName: 'Alhassan',
+  age: 24,
+  country: 'Nigeria',
+  city: 'Lokoja',
+  skills: [
+    'HTML',
+    'CSS',
+    'JavaScript',
+    'React',
+  ],
+  isMarried: false
+}
+console.log(personObject)
