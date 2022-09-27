@@ -81,3 +81,23 @@ function letsLearnLocalScope() {
 }
 letsLearnLocalScope()
 console.log(localLanguage, localNum, ': line 60, 61')
+
+// ES6
+function letsLearnScopeEs6() {
+  const gravity = 9.81;
+  console.log(gravity)
+}
+
+// console.log(gravity) - uncaught Reference Error: Gravity not defined
+letsLearnScopeEs6()
+
+if (true) {
+  const gravity = 9.81;
+  console.log(gravity)
+}
+// console.log(gravity) - uncaught Reference Error: Gravity not defined
+
+for (let i = 0; i < 3; i++) {
+  console.log(i) // 0, 1, 2
+}
+

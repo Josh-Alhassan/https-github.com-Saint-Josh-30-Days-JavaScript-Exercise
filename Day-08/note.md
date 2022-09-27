@@ -23,3 +23,7 @@ A variable declared with *var* only scoped to functoin but variable declared wit
 **Block** in JavaScript is a code in between two curly brackets ({})
 
 in ES6 and above there is *let* and *const*, so you will not suffer the sneakiness of *var*. When we use *let* our variable is block scoped and it will not infect other parts of our code.
+
+The scope *let* and *const* are the same. The difference is only reassigning. We can not change or re-assign the value of the <code>const</code> variable. By using *let* and *const* you will write clean code and aviod hard to debug mistakes.
+
+**Note**: As a rule of thumb, you can use let for any value which change, *const* for any constant value, and for an array, object, arrow function and function expression.
