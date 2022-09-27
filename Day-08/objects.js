@@ -32,7 +32,7 @@ letsLearnScope() // Accessible
 
 // Global Scope
 spaceInConsole()
-titleInConsole('Global Scope')
+titleInConsole('=== Global Scope ===')
 
 /*
   A global scope available anywhere in this file
@@ -52,3 +52,32 @@ function letsLearnGlobalScope() {
 }
 letsLearnGlobalScope()
 console.log(a, b)
+
+// Local Scope
+spaceInConsole()
+titleInConsole('=== Local Scope ===')
+
+let localLanguage = 'JavaScipt';
+let localNum = 10;
+
+// Function scope
+function letsLearnLocalScope() {
+  console.log(localLanguage, localNum, ': Line 65')
+  let value = false
+  // Blcok scope
+  if (true) {
+    /*
+    We can access variables from the function and outside the function but variables declared inside the 'if' will not be accessed outside the 'if' block
+    */
+   let localLanguage = 'Python'
+   let localNum = 20;
+   let numTwo = 30;
+   let numThree = 40;
+   value = !value
+   console.log(localLanguage, localNum, numTwo, numThree, value, ': Line 77') 
+  }
+  // we cannot access numTwo because 'numTwo' scope is only the 'if-block'
+  console.log(localLanguage, localNum, value, ': Line 60, 61')
+}
+letsLearnLocalScope()
+console.log(localLanguage, localNum, ': line 60, 61')
