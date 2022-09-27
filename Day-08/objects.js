@@ -136,14 +136,18 @@ const personObject = {
 console.log(personObject)
 
 // Getting values from an object
-titleInConsole('Gettig values from Object using dot notation')
+titleInConsole('=== Gettig values from Object using dot notation ===')
 console.log(personObject.fistName)
 console.log(personObject.lastName)
 console.log(personObject.age)
 console.log(personObject.location)
 
-titleInConsole('Accessing Values using square bracket')
+titleInConsole('=== Accessing Values using square bracket ===')
 console.log(personObject['fistName'])
 console.log(personObject['lastName'])
 console.log(personObject['age'])
 console.log(personObject['phone number'])
+
+// Creating / accessing object methods
+titleInConsole('===Accessing object methods===')
+console.log(personObject.getFullName())

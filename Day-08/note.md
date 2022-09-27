@@ -34,3 +34,6 @@ Everything can be an object and objects do have properties and properties have v
 We can access values of object using two methods:
 * using '.' followed by the key name, if the key-name is a one word
 * using square bracket and a quote
+
+## Creating Object methods
+We call a function inside of an object method. The *this* keyword refers to the object itself. We can use the keyword *this* to access the values of different properties of the object. We can not use an arrow function as object method because the word *this* would refer to the **window object** instead of the created object itself.
