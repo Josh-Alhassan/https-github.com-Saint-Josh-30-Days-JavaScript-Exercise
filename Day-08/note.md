@@ -40,3 +40,11 @@ We call a function inside of an object method. The *this* keyword refers to the 
 
 ## Setting new key for an object
 An object is a mutable data structure and we can modify the content of an object after it gets created.
+
+## Object Methods
+There are different types of method to manipulate an object.
++ Object.assign: To copy an object without modifying the original object
++ Object.keys: To get the keys or properties of am object as array
++ Object.entries: To get the keys and values in an array
++ Object.values: To ge the values of an object
++ hasOwnProperty:To check if a specific key or property exists in an object. It returns a boolean

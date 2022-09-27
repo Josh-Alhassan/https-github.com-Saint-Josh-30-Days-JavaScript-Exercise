@@ -171,3 +171,27 @@ personObject.getPersonInfo = function() {
 
 console.log(personObject)
 console.log(personObject.getPersonInfo())
+
+// Object Methods
+titleInConsole('===Object Methods ===')
+console.log('==> Object.assign()')
+const copyPerson = Object.assign({}, personObject)
+console.log(copyPerson)
+
+titleInConsole('==> Object.keys()')
+const keys = Object.keys(copyPerson);
+console.log(keys)
+const skillSet = Object.keys(copyPerson.skills)
+console.log(skillSet)
+
+titleInConsole('===> Object.entries')
+const entries = Object.entries(copyPerson)
+console.log(entries)
+
+titleInConsole('===> Object.values')
+const values = Object.values(copyPerson);
+console.log(values)
+
+titleInConsole('===> Object.hasOwnPropety')
+console.log(copyPerson.hasOwnProperty('name'))
+console.log(copyPerson.hasOwnProperty('skills'))
