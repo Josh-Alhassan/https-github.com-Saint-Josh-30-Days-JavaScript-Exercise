@@ -151,3 +151,23 @@ console.log(personObject['phone number'])
 // Creating / accessing object methods
 titleInConsole('===Accessing object methods===')
 console.log(personObject.getFullName())
+
+// Setting new key for an object
+titleInConsole('=== Setting New key for an Object ===');
+personObject.nationality = 'Nigerian';
+personObject.country = 'United States'
+personObject.title = 'Student';
+personObject.skills.push('SaSS')
+
+personObject.getPersonInfo = function() {
+  let skillsWithoutLastSkill = this.skills.splice(0, this.skills.length - 1).join(', ')
+  let lastSkill = this.skills.splice(this.skills.length - 1)[0]
+
+  let skills = `${skillsWithoutLastSkill}, and ${lastSkill}`
+  let fullName = this.getFullName()
+  let statement = `${fullName} is a ${this.title}. \nHe lives in ${this.country}. \nHe is learning ${skills}`
+  return statement
+}
+
+console.log(personObject)
+console.log(personObject.getPersonInfo())
