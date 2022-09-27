@@ -27,3 +27,6 @@ in ES6 and above there is *let* and *const*, so you will not suffer the sneakine
 The scope *let* and *const* are the same. The difference is only reassigning. We can not change or re-assign the value of the <code>const</code> variable. By using *let* and *const* you will write clean code and aviod hard to debug mistakes.
 
 **Note**: As a rule of thumb, you can use let for any value which change, *const* for any constant value, and for an array, object, arrow function and function expression.
+
+# Object
+Everything can be an object and objects do have properties and properties have values, so an object is a key value pair. The order of the key is not reserved, or there's no order. 

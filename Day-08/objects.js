@@ -101,3 +101,9 @@ for (let i = 0; i < 3; i++) {
   console.log(i) // 0, 1, 2
 }
 
+// ### OBJECTS
+spaceInConsole()
+titleInConsole('=== OBJECTS ===')
+// Creating empty Object
+const person = {}
+console.log(person)
