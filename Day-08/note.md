@@ -30,3 +30,7 @@ The scope *let* and *const* are the same. The difference is only reassigning. We
 
 # Object
 Everything can be an object and objects do have properties and properties have values, so an object is a key value pair. The order of the key is not reserved, or there's no order. 
+
+We can access values of object using two methods:
+* using '.' followed by the key name, if the key-name is a one word
+* using square bracket and a quote

@@ -127,6 +127,23 @@ const personObject = {
     'JavaScript',
     'React',
   ],
-  isMarried: false
+  isMarried: false,
+  getFullName: function() {
+    return `${this.fistName} ${this.lastName}`
+  },
+  'phone number': '+2348153776515'
 }
 console.log(personObject)
+
+// Getting values from an object
+titleInConsole('Gettig values from Object using dot notation')
+console.log(personObject.fistName)
+console.log(personObject.lastName)
+console.log(personObject.age)
+console.log(personObject.location)
+
+titleInConsole('Accessing Values using square bracket')
+console.log(personObject['fistName'])
+console.log(personObject['lastName'])
+console.log(personObject['age'])
+console.log(personObject['phone number'])
