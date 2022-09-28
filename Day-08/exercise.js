@@ -135,7 +135,21 @@ const personAccount = {
   },
   accountInfo: function() {
     return `{Account holder: ${firstName} ${lastName} \n Total Income: ${totalIncome} }`
+  },
+  addIncome: function(amount) {
+    const addAmount = amount + this.income;
+    return `New income total: $${addAmount}`
+  },
+  addExpense: function(expense) {
+    const totalExpense = expense + this.expense;
+    return `Total expense: $${totalExpense}`
+  },
+  accountBalance: function() {
+    return `${this.firstName} ${this.lastName} Your account balance is: ${this.income}`
   }
 }
 
 console.log(personAccount.totalExpense())
+console.log(personAccount.addIncome(300))
+console.log(personAccount.addExpense(523))
+console.log(personAccount.accountBalance())
