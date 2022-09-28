@@ -25,6 +25,7 @@ import './style.css';
 
 // Day 08 imports
 import './Day-08/objects.js'
+import './Day-08/exercise.js'
 
 // Write Javascript code!
 const appDiv = document.getElementById('app');
