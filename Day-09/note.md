@@ -16,3 +16,26 @@ function cube(callback, n) {
 
 console.log(cube(callback, 3))
 ```
+
+## Functional Programming
+Instead of writing regular loop, JavaScript latest version introduced lots of built in methods which can help us to solve complicated problems.
+
++ All built in methods take a *callback* function
+
+### forEach
+**forEach**: Iterate an array elements. We use ***forEach*** only with arrays. It takes a callback function with elements, index parameter and array itself. **NOTE** the index and array are optional
+
+```
+// syntax
+arr.forEach(function(element, index, arr) {
+  console.log(index, element, arr)
+})
+
+// written using an arrow funtion
+arr.forEach((element, index, arr) => {
+  console.log(index, element, arr)
+})
+
+// Written using arrow function and explicit return
+arr.forEach((element, index, arr) => console.log(index, element, arr))
+```
