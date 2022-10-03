@@ -39,3 +39,15 @@ arr.forEach((element, index, arr) => {
 // Written using arrow function and explicit return
 arr.forEach((element, index, arr) => console.log(index, element, arr))
 ```
+
+### map
+**map**: Iterate an array elements and modify the array elements. It takes a callback function with elements, index, array and returns a new array.
+
+```
+const modifiedArray = arr.map(function(element, index, arr) {
+  return element
+})
+
+// Arrow function and explicit return
+const modifiedArray = arr.map((element, index) => element);
+```

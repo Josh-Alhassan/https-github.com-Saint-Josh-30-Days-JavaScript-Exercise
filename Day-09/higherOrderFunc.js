@@ -60,3 +60,17 @@ countries.forEach(function(element) {
 // map()
 console.log(' ')
 console.log('Map() method')
+
+const numbersquare = numbersInFunctionalProgramming.map((num) => num * num)
+console.log(numbersquare)
+
+const names = ['Alhassan', 'Joshua', 'Auto villa', 'Jeremiah'];
+const namesToUpperCase = names.map((names) => {
+  return names.toUpperCase()
+})
+console.log(namesToUpperCase)
+
+const countriesFirstThreeLetters = countries.map((country) => {
+  return country.toUpperCase().slice(0, 3)
+})
+console.log(countriesFirstThreeLetters)
