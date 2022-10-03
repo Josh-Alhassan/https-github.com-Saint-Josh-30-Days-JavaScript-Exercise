@@ -66,3 +66,6 @@ arr.reduce((acc, cur) => {
   return
 }, initial value)
 ```
+
+### every
+**every**: check if all the elements are similar in one aspect. It returnss boolean

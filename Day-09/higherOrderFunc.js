@@ -134,3 +134,19 @@ const sumReducer = numbers.reduce(function(acc, cur) {
   return acc + cur
 }, 0)
 console.log(sumReducer)
+
+// every()
+console.log(' ')
+console.log('every() method')
+console.log(names)
+const areAllStr = names.every((element) => {
+  return typeof element === 'string'
+})
+console.log('Are all elements strings?')
+console.log(areAllStr)
+
+const bools = [true, true, true, true]
+const areAllTrue = bools.every(function(bool) {
+  return bool === true
+})
+console.log(areAllTrue)
