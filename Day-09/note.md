@@ -54,3 +54,15 @@ const modifiedArray = arr.map((element, index) => element);
 
 ### filter
 **filter**: return a new array full with elements that pass a test.
+
+### reduce
+**reduce**: Reduce takes a callback function. The callback function takes accumulator, current, and optional initial value as a parameter and returns a single value.
++ It is a good practice to define an initial value for the accumulator value.
+
+```
+// syntax
+arr.reduce((acc, cur) => {
+  // some operations goes here before returning a value
+  return
+}, initial value)
+```

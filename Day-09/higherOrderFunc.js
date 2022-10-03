@@ -124,3 +124,13 @@ const scoresGreaterThanEighty = scores.filter(function(score) {
   return score.score > 80;
 })
 console.log(scoresGreaterThanEighty)
+
+// reduce()
+console.log(' ')
+console.log('reduce() method')
+
+// const sumReducer = numbers.reduce((acc, cur) => acc + cur, 0)
+const sumReducer = numbers.reduce(function(acc, cur) {
+  return acc + cur
+}, 0)
+console.log(sumReducer)
