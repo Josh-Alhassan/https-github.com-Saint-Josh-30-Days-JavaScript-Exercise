@@ -51,3 +51,6 @@ const modifiedArray = arr.map(function(element, index, arr) {
 // Arrow function and explicit return
 const modifiedArray = arr.map((element, index) => element);
 ```
+
+### filter
+**filter**: return a new array full with elements that pass a test.

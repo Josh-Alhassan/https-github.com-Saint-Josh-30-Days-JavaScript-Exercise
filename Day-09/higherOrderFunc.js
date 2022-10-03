@@ -52,7 +52,19 @@ numbersInFunctionalProgramming.forEach(function(num) {
 console.log(sum)
 
 console.log(' ')
-const countries = ['Finland', 'Denmark', 'Sweden', 'Norway', 'Iceland']
+const countries = [
+  'Albania',
+  'Bolivia',
+  'Canada',
+  'Denmark',
+  'Ethiopia',
+  'Finland',
+  'Germany',
+  'Hungary',
+  'Ireland',
+  'Japan',
+  'Kenya',
+]
 countries.forEach(function(element) {
   console.log(element.toUpperCase())
 })
@@ -74,3 +86,41 @@ const countriesFirstThreeLetters = countries.map((country) => {
   return country.toUpperCase().slice(0, 3)
 })
 console.log(countriesFirstThreeLetters)
+
+// filter()
+console.log(' ')
+console.log('filter() method')
+
+// countries containing 'land'
+const countriesContainingLand = countries.filter((country) => {
+  return country.includes('land')
+})
+console.log(`countries containing 'land'` )
+console.log(countriesContainingLand)
+
+// `Countries ends with 'ia`
+countriesEndsByia = countries.filter((country) => country.endsWith('ia'))
+console.log(`Countries ends with 'ia`)
+console.log(countriesEndsByia)
+
+// Countries having five letters
+const countruesHavFiveLetters = countries.filter((country) => {
+  return country.length === 5
+})
+console.log(`Countries having five letters`)
+console.log(countruesHavFiveLetters)
+
+// Scores Greater than Eighty
+const scores = [
+  { name: 'Asabeneh', score: 95 },
+   { name: 'Lidiya', score: 98 },
+  { name: 'Mathias', score: 80 },
+  { name: 'Elias', score: 50 },
+  { name: 'Martha', score: 85 },
+  { name: 'John', score: 100 },
+]
+
+const scoresGreaterThanEighty = scores.filter(function(score) {
+  return score.score > 80;
+})
+console.log(scoresGreaterThanEighty)
