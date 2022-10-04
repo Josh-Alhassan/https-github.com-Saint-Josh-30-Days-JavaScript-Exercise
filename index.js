@@ -28,7 +28,8 @@ import './Day-08/objects.js';
 import './Day-08/exercise.js';
 
 // Day 09 Imports
-import './Day-09/higherOrderFunc.js';
+// import './Day-09/higherOrderFunc.js';
+import './Day-09/exercise.js'
 
 // Write Javascript code!
 const appDiv = document.getElementById('app');
