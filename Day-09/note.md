@@ -69,3 +69,6 @@ arr.reduce((acc, cur) => {
 
 ### every
 **every**: check if all the elements are similar in one aspect. It returnss boolean
+
+### find
+**find**: Returns the first element which satisfies the condition

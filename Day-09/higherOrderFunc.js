@@ -150,3 +150,24 @@ const areAllTrue = bools.every(function(bool) {
   return bool === true
 })
 console.log(areAllTrue)
+
+// find()
+console.log(' ')
+console.log('find() method')
+const ages = [32, 22, 25, 32, 35, 18]
+const age = ages.find(function(age) {
+  return age < 20;
+})
+console.log(age)
+
+console.log(names)
+const result = names.find((name) => (
+  name.length > 7
+))
+console.log(result)
+
+console.log(scores)
+const score = scores.find((user) => {
+  return user.score > 80
+})
+console.log(score)
