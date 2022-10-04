@@ -171,3 +171,15 @@ const score = scores.find((user) => {
   return user.score > 80
 })
 console.log(score)
+
+// some()
+console.log(' ')
+console.log('some() method')
+
+const areSomeTrue = bools.some((bool) => bool === true)
+console.log(areSomeTrue)
+
+const areAllString = names.some((name) => {
+  return typeof name === 'number'
+})
+console.log(areAllString)

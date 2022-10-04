@@ -72,3 +72,6 @@ arr.reduce((acc, cur) => {
 
 ### find
 **find**: Returns the first element which satisfies the condition
+
+### some
+**some**: Check if some of the elements are similar in one aspect. It returns boolean
