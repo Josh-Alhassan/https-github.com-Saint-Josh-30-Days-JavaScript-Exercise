@@ -75,3 +75,27 @@ arr.reduce((acc, cur) => {
 
 ### some
 **some**: Check if some of the elements are similar in one aspect. It returns boolean
+
+### sort
+sort: The *sort* method arranges the array elements either ascending or descending order. By default, the *sort()* method sorts values as strings. This works well for string array items but not for numbers.
++ sort method modify the original array
+NOTE: It is recommended to copy the original data before you start using sort method.
+
++ Sorting object Arrays - whenever we sort objects in an array, we use the object key to compare.
+
+```
+// syntax
+objAr.sort(function(a, b) {
+  if (a.key < b.key) return -1
+  if (a.key > b.key) return 1
+  return 0
+})
+
+// OR
+
+objArr.sort(function(a, b) {
+  if(a['key'] < b['key']) return -1
+  if(a['key'] > b['key']) return 1
+  return 0
+})
+```

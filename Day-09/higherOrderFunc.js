@@ -183,3 +183,42 @@ const areAllString = names.some((name) => {
   return typeof name === 'number'
 })
 console.log(areAllString)
+
+// sort()
+console.log(' ')
+console.log('sort() method')
+
+// Sorting String values
+const products = ['Milk', 'Coffee', 'Sugar', 'Honey', 'Apple', 'Carrot'];
+console.log(products.sort())
+
+// Sorting number values
+const numSort = [9.81, 3.14, 100, 37];
+// using sort method to sort number items provide a wrong result
+console.log(numSort.sort())
+
+// sortin number values Ascending order
+numSort.sort(function(a, b) {
+  return a - b
+})
+console.log(numSort)
+
+// sorting number values in Descending order
+numSort.sort(function(a, b) {
+  return b - a
+})
+console.log(numSort)
+
+// Sorting Object Arrays
+const users = [
+  { name: 'Asabeneh', age: 150 },
+  { name: 'Brook', age: 50 },
+  { name: 'Eyob', age: 100 },
+  { name: 'Elias', age: 22 },
+]
+users.sort((a, b) => {
+  if (a.age < b.age) return -1
+  if (a.age > b.age) return 1
+  return 0
+})
+console.log(users) // sorted ascending
